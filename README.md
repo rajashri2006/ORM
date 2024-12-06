@@ -24,16 +24,17 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
+ADMIN.PY
 ```
-admin.py
 
 from django.contrib import admin
 
 from .models import Bankloan,BankloanAdmin
 
 admin.site.register(Bankloan,BankloanAdmin)
-
-model.py
+```
+MODEL.PY
+```
 
 from django.db import models
 
@@ -62,7 +63,12 @@ class Bankloan(models.Model):
 
 Include the screenshot of your admin page.
 
-![ORM](https://github.com/user-attachments/assets/764ca652-6835-47ae-8932-576b2be2dabc)
+![bankloan orm](https://github.com/user-attachments/assets/7006a41f-920b-473e-a60b-59808ec35bf7)
+
+![user orm](https://github.com/user-attachments/assets/5afbffc3-6c1b-488c-b6da-1aaeac6f004d)
+
+
+![orm group](https://github.com/user-attachments/assets/b2e20c15-298c-4e61-8c49-2f172701600d)
 
 
 
