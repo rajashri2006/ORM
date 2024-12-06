@@ -24,7 +24,7 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
-
+```
 admin.py
 
 from django.contrib import admin
@@ -55,14 +55,15 @@ class Bankloan(models.Model):
     
     list_display=('date_of_birth','fathers_name','age','customerid','accountdetails')
 
-
+```
 
 
 ## OUTPUT
 
 Include the screenshot of your admin page.
 
-![Screenshot 2024-11-24 191705](https://github.com/user-attachments/assets/dc487b3a-473b-480d-a946-daf53425e213)
+![ORM](https://github.com/user-attachments/assets/764ca652-6835-47ae-8932-576b2be2dabc)
+
 
 
 
